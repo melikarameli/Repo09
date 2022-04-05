@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gigi School of Coding</title>
+    </head>
+    <body>
+        <h2>CatPhotoApp</h2>
+        <main>
+           <p>View more <a href="#">cat photos<img src="https://bit.ly/3fUJAV1" alt="Gray cat on tree branch."></a></p>
+           <p>Things cats love:</p>
+          <ul>
+             <li>play</li>
+             <li>chase mice</li>
+             <li>drink milk</li>
+          </ul>
+          <p>Top 3 things cats hate:</p>
+          <ol>
+             <li>dogs</li>
+             <li>loud noises</li>
+             <li>spoiled food</li>
+          </ol>
+          <form action="/submit-cat-photo">
+             <input type="text" placeholder="cat photo URL" required>
+             <button type="submit">Submit</button>
+             <!--When I click on the submit button without any text it a message pops out and says: 
+          Please fill out this field-->
+         </form>
+         <div>
+             <label for="inside">
+               <input id="inside" type="radio" name="inside-outside" value="Inside" checked>Inside
+             </label>
+             <label for="outside">
+               <input id="outside" type="radio" name="inside-outside" value="Outside">Outside
+             </label>
+         </div>
+         <div>
+             <label for="checkbox1">
+                <input type="checkbox" name="favorite_pet" value="Dog" checked>Dog
+             </label>
+             <label for="checkbox2">
+                <input type="checkbox" name="favorite_pet" value="Cat">Cat
+             </label>
+             <label for="checkbox3">
+                <input type="checkbox" name="favorite_pet" value="Hamster">Hamster
+             </label>
+             <label for="checkbox4">
+                <input type="checkbox" name="favorite_pet" value="Bird">Bird
+             </label>
+             <label for="checkbox5">
+                <input type="checkbox" name="favorite_pet" value="Fish">Fish 
+             </label>
+         </div>
+      </main>
+      <footer id="footer"></footer>
+    </body>
+</html>
